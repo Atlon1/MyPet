@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MyPet/static/css/main.423a3830.css",
+    "main.js": "/MyPet/static/js/main.f8a8db1c.js",
+    "static/media/ola_zayla.jpg": "/MyPet/static/media/ola_zayla.890f820c23abf17bd353.jpg",
+    "static/media/Zyla3.jpg": "/MyPet/static/media/Zyla3.c0230e0e0f93d566a3cc.jpg",
+    "static/media/zyla4.jpg": "/MyPet/static/media/zyla4.d0a7804b213f73741a7c.jpg",
+    "static/media/Zyla1.webp": "/MyPet/static/media/Zyla1.339740eee0f034a3340b.webp",
+    "static/media/zayla5.jpg": "/MyPet/static/media/zayla5.9126ed889a23686bb357.jpg",
+    "static/media/zyla2.webp": "/MyPet/static/media/zyla2.55eac21da1a3260847a0.webp",
+    "static/media/Decoration.svg": "/MyPet/static/media/Decoration.aad75271e33dd889f25b0e24a5e6c0b2.svg",
+    "index.html": "/MyPet/index.html",
+    "main.423a3830.css.map": "/MyPet/static/css/main.423a3830.css.map",
+    "main.f8a8db1c.js.map": "/MyPet/static/js/main.f8a8db1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.423a3830.css",
+    "static/js/main.f8a8db1c.js"
+  ]
+}
