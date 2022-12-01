@@ -1,0 +1,60 @@
+@import "../settings/fonts";
+@import "../settings/mixins";
+@import "../settings/colors";
+
+.information {
+  .wrapper {
+    justify-content: center;
+
+  }
+  &__cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+  &__img{
+    max-width: 650px;
+    max-height: 650px;
+    height: 100%;
+    border-radius: 35px;
+    transition: 1s;
+    box-shadow: 20px 20px 20px 20px rgba(deeppink, .2);
+    margin-right:50px;
+    margin-left: 50px;
+    @include mobile{
+      max-width: 450px;
+      width: 100%;
+      max-height: 550px;
+      height: 100%;
+    }
+
+  }
+  &__content{
+  max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  &__header {
+    font-size: calc(35px + 2 * ((110vw - 320px) / 680));;
+    margin-bottom: 15px;
+    transition: 1s;
+    @include mobile {
+      margin-top: 35px;
+    }
+  }
+  &__text{
+    margin-top: 25px;
+    font-family: $font-alt;
+    font-size: calc(25px + 2 * ((110vw - 320px) / 680));
+    margin-left: 25px;
+    transition: 1s;
+    text-align: center;
+  }
+}

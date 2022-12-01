@@ -1,0 +1,35 @@
+@import "../settings/fonts";
+@import "../settings/mixins";
+@import "../settings/colors";
+
+.header {
+
+  .wrapper {
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border-bottom: 5px solid turquoise;
+
+  }
+  &__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: calc(25px + 2 * ((110vw - 320px) / 680));
+    transition: 1s;
+
+  }
+  &__firstCont{
+margin-bottom: 25px;
+    height: 30px;
+  }
+  &__secCont{
+margin-bottom: 10px;
+   height: 30px;
+  }
+}
+span {
+  display: none;
+}

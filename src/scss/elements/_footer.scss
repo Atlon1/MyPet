@@ -1,0 +1,47 @@
+@import "../settings/fonts";
+@import "../settings/mixins";
+@import "../settings/colors";
+
+.footer {
+  .wrapper {
+    margin-top: 45px;
+    justify-content: center;
+    background-color: turquoise;
+
+  }
+  &__cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include mobile {
+      flex-direction: column;
+
+  }
+
+  }
+  &__content{
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+
+  }
+  &__header {
+    font-size: calc(35px + 2 * ((110vw - 320px) / 680));;
+    margin-bottom: 15px;
+    transition: 1s;
+    @include mobile {
+      margin-top: 35px;
+    }
+  }
+  &__text{
+    margin-top: 25px;
+    font-size: calc(25px + 2 * ((110vw - 320px) / 680));
+    margin-left: 25px;
+    transition: 1s;
+    text-align: center;
+  }
+}
